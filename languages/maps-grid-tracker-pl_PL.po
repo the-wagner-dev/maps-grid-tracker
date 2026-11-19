@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maps Grid Tracker 1.0.3\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Enter the DataForSEO login and password first."
+msgstr "Najpierw podaj login i hasło DataForSEO."
+
+msgid "Set the grid centre (latitude and longitude)."
+msgstr "Ustaw środek siatki (szerokość i długość geograficzną)."
+
+msgid "Add at least one keyword."
+msgstr "Dodaj co najmniej jedną frazę."
+
+msgid "Set the business CID or website domain so it can be found in the results."
+msgstr "Podaj CID firmy lub domenę strony, aby znaleźć ją w wynikach."
+
+msgid "Another scan is still running. Wait until it finishes."
+msgstr "Inne skanowanie wciąż trwa. Poczekaj, aż się zakończy."
+
+msgid "Could not save the scan to the database."
+msgstr "Nie udało się zapisać skanowania w bazie danych."
+
+msgid "DataForSEO did not accept any task."
+msgstr "DataForSEO nie przyjął żadnego zadania."
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Maps Grid Tracker"
+msgstr "Pozycje w Mapach (siatka)"
+
+msgid "Maps Grid"
+msgstr "Pozycje w Mapach"
+
+msgid "Not in results"
+msgstr "Brak w wynikach"
+
+msgid "Position"
+msgstr "Pozycja"
+
+msgid "Point"
+msgstr "Punkt"
+
+msgid "Top 3 here"
+msgstr "Top 3 w tym punkcie"
+
+msgid "No data"
+msgstr "Brak danych"
+
+msgid "Grid centre"
+msgstr "Środek siatki"
+
+msgid "%1$d points × %2$d keywords = %3$d requests ≈ $%4$s per scan"
+msgstr "%1$d punktów × %2$d fraz = %3$d zapytań ≈ $%4$s za skanowanie"
+
+msgid "You are not allowed to do this."
+msgstr "Nie masz uprawnień do tej operacji."
+
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+msgid "Connected. Balance: $%s"
+msgstr "Połączono. Saldo: $%s"
+
+msgid "Scan #%d started. DataForSEO usually returns standard-queue results within a few minutes; they are collected every 5 minutes or with “Check results now”."
+msgstr "Skanowanie #%d uruchomione. Kolejka standardowa DataForSEO zwykle zwraca wyniki w kilka minut; są pobierane co 5 minut lub przyciskiem „Sprawdź wyniki teraz”."
+
+msgid "Checked %1$d tasks, received %2$d results."
+msgstr "Sprawdzono zadań: %1$d, pobrano wyników: %2$d."
+
+msgid "Scan #%d deleted."
+msgstr "Skanowanie #%d usunięte."
+
+msgid "Save the API access and the grid centre first, then enter the business name."
+msgstr "Najpierw zapisz dostęp do API i środek siatki, potem wpisz nazwę firmy."
+
+msgid "Business saved."
+msgstr "Firma zapisana."
+
+msgid "Report"
+msgstr "Raport"
+
+msgid "Scans"
+msgstr "Skanowania"
+
+msgid "Sandbox mode is on: DataForSEO returns sample data for free. Turn it off in Settings for real rankings."
+msgstr "Włączony tryb sandbox: DataForSEO zwraca darmowe dane przykładowe. Wyłącz go w ustawieniach, aby mierzyć prawdziwe pozycje."
+
+msgid "WP-Cron is disabled on this site (DISABLE_WP_CRON) and no tick has run in the last 20 minutes, so scheduled scans will not start. Add this line to the server crontab:"
+msgstr "WP-Cron jest wyłączony (DISABLE_WP_CRON) i od 20 minut nic się nie uruchomiło, więc skanowania z harmonogramu nie wystartują. Dodaj tę linię do crontaba serwera:"
+
+msgid "Scheduled scan failed on %1$s: %2$s"
+msgstr "Skanowanie z harmonogramu nie powiodło się %1$s: %2$s"
+
+msgid "Scan #%1$d is running: %2$d of %3$d results received. Results are collected every 5 minutes."
+msgstr "Skanowanie #%1$d trwa: pobrano %2$d z %3$d wyników. Wyniki są pobierane co 5 minut."
+
+msgid "Check results now"
+msgstr "Sprawdź wyniki teraz"
+
+msgid "Running"
+msgstr "W toku"
+
+msgid "Done"
+msgstr "Gotowe"
+
+msgid "Partly done"
+msgstr "Częściowo"
+
+msgid "Failed"
+msgstr "Błąd"
+
+msgid "No finished scans yet."
+msgstr "Brak zakończonych skanowań."
+
+msgid "Run a scan"
+msgstr "Uruchom skanowanie"
+
+msgid "Scan"
+msgstr "Skanowanie"
+
+msgid "Keyword"
+msgstr "Fraza"
+
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "Average position"
+msgstr "Średnia pozycja"
+
+msgid "Only points where the business was found."
+msgstr "Tylko punkty, w których firma została znaleziona."
+
+msgid "Average total position"
+msgstr "Średnia ze wszystkich punktów"
+
+msgid "Not found counts as %d."
+msgstr "Brak w wynikach liczony jako %d."
+
+msgid "Top 3"
+msgstr "Top 3"
+
+msgid "Found in top %d"
+msgstr "Znaleziono w top %d"
+
+msgid "Changes are compared with scan #%d."
+msgstr "Zmiany w porównaniu ze skanowaniem #%d."
+
+msgid "Map of positions on the grid"
+msgstr "Mapa pozycji na siatce"
+
+msgid "not in top %d"
+msgstr "poza top %d"
+
+msgid "All keywords in this scan"
+msgstr "Wszystkie frazy w tym skanowaniu"
+
+msgid "Found"
+msgstr "Znaleziono"
+
+msgid "Grid %1$d×%1$d, %2$s km between points, zoom %3$d. Business: %4$s"
+msgstr "Siatka %1$d×%1$d, %2$s km między punktami, zoom %3$d. Firma: %4$s"
+
+msgid "pp"
+msgstr "pp"
+
+msgid "Start a scan: %1$d requests, about $%2$s. Continue?"
+msgstr "Uruchomić skanowanie: %1$d zapytań, około $%2$s. Kontynuować?"
+
+msgid "Run scan now"
+msgstr "Uruchom skanowanie teraz"
+
+msgid "%1$d points × %2$d keywords, about $%3$s"
+msgstr "%1$d punktów × %2$d fraz, około $%3$s"
+
+msgid "Next scheduled scan: %s"
+msgstr "Następne skanowanie z harmonogramu: %s"
+
+msgid "No scans yet."
+msgstr "Brak skanowań."
+
+msgid "Started"
+msgstr "Rozpoczęto"
+
+msgid "Source"
+msgstr "Źródło"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Results"
+msgstr "Wyniki"
+
+msgid "Cost"
+msgstr "Koszt"
+
+msgid "schedule"
+msgstr "harmonogram"
+
+msgid "manual"
+msgstr "ręcznie"
+
+msgid "(%d failed)"
+msgstr "(błędów: %d)"
+
+msgid "View"
+msgstr "Pokaż"
+
+msgid "Delete scan #%d and its results?"
+msgstr "Usunąć skanowanie #%d i jego wyniki?"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "DataForSEO access"
+msgstr "Dostęp do DataForSEO"
+
+msgid "API login"
+msgstr "Login API"
+
+msgid "A password is saved. Leave empty to keep it."
+msgstr "Hasło jest zapisane. Zostaw puste, aby go nie zmieniać."
+
+msgid "Remove saved password"
+msgstr "Usuń zapisane hasło"
+
+msgid "API password from the DataForSEO dashboard (API Access), not the account password."
+msgstr "Hasło API z panelu DataForSEO (API Access), nie hasło do konta."
+
+msgid "API password"
+msgstr "Hasło API"
+
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgid "Use sandbox.dataforseo.com (free sample data, for testing)"
+msgstr "Używaj sandbox.dataforseo.com (darmowe dane testowe)"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "%1$s, balance $%2$s"
+msgstr "%1$s, saldo $%2$s"
+
+msgid "Business"
+msgstr "Firma"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Google CID"
+msgstr "Google CID"
+
+msgid "The most reliable match. Use “Find business” below to fill it in."
+msgstr "Najpewniejsze dopasowanie. Uzupełnij je przyciskiem „Znajdź firmę” poniżej."
+
+msgid "Website domain"
+msgstr "Domena strony"
+
+msgid "Used when the CID is empty or does not match: the profile’s website domain."
+msgstr "Domena strony z profilu. Używana, gdy CID jest pusty lub się nie zgadza."
+
+msgid "Grid"
+msgstr "Siatka"
+
+msgid "Click the map to move the grid centre."
+msgstr "Kliknij mapę, aby przesunąć środek siatki."
+
+msgid "Centre"
+msgstr "Środek"
+
+msgid "Latitude"
+msgstr "Szerokość"
+
+msgid "Longitude"
+msgstr "Długość"
+
+msgid "latitude, longitude"
+msgstr "szerokość, długość"
+
+msgid "Grid size"
+msgstr "Rozmiar siatki"
+
+msgid "Distance between points"
+msgstr "Odległość między punktami"
+
+msgid "Map zoom"
+msgstr "Przybliżenie mapy"
+
+msgid "Google Maps zoom used for each search (13–15 for a city)."
+msgstr "Przybliżenie Map Google dla każdego wyszukiwania (13–15 dla miasta)."
+
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+msgid "Keywords"
+msgstr "Frazy"
+
+msgid "One per line, up to 50."
+msgstr "Jedna w wierszu, maks. 50."
+
+msgid "Language"
+msgstr "Język"
+
+msgid "e.g. pl, en, de"
+msgstr "np. pl, en, de"
+
+msgid "Results to check"
+msgstr "Ile wyników sprawdzać"
+
+msgid "Positions below this count are shown as “not found”. Up to 100 costs the same."
+msgstr "Pozycje poniżej tej liczby są pokazywane jako „brak”. Do 100 koszt jest taki sam."
+
+msgid "Schedule and cost"
+msgstr "Harmonogram i koszt"
+
+msgid "Manual only"
+msgstr "Tylko ręcznie"
+
+msgid "Daily"
+msgstr "Codziennie"
+
+msgid "Weekly"
+msgstr "Co tydzień"
+
+msgid "Every 2 weeks"
+msgstr "Co 2 tygodnie"
+
+msgid "Every 30 days"
+msgstr "Co 30 dni"
+
+msgid "Next scan: %s"
+msgstr "Następne skanowanie: %s"
+
+msgid "Automatic scans"
+msgstr "Automatyczne skanowania"
+
+msgid "at"
+msgstr "o"
+
+msgid "Price per request"
+msgstr "Cena za zapytanie"
+
+msgid "Google Maps SERP, standard queue, from your DataForSEO price list. Only used for estimates; the real cost is taken from the API."
+msgstr "Google Maps SERP, kolejka standardowa, z cennika DataForSEO. Tylko do szacunków; rzeczywisty koszt pochodzi z API."
+
+msgid "Save settings"
+msgstr "Zapisz ustawienia"
+
+msgid "Tools"
+msgstr "Narzędzia"
+
+msgid "Test connection"
+msgstr "Sprawdź połączenie"
+
+msgid "Free: reads the account balance."
+msgstr "Bezpłatnie: odczytuje saldo konta."
+
+msgid "Business name"
+msgstr "Nazwa firmy"
+
+msgid "Find business"
+msgstr "Znajdź firmę"
+
+msgid "One live request at the grid centre (about $0.002)."
+msgstr "Jedno zapytanie live w środku siatki (około $0.002)."
+
+msgid "Results for “%1$s” (cost $%2$s)"
+msgstr "Wyniki dla „%1$s” (koszt $%2$s)"
+
+msgid "Nothing found."
+msgstr "Nic nie znaleziono."
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Website"
+msgstr "Strona"
+
+msgid "This is my business"
+msgstr "To moja firma"

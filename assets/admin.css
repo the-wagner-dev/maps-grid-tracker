@@ -1,0 +1,43 @@
+/* Maps Grid Tracker: small additions to core admin styles. */
+.mgt-wrap .nav-tab-wrapper { margin-bottom: 16px; }
+.mgt-filter { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 0 0 16px; }
+.mgt-filter select { margin-left: 4px; max-width: 320px; }
+
+.mgt-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 0 0 8px; }
+.mgt-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 12px 16px; box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+.mgt-card__label { color: #50575e; font-size: 13px; }
+.mgt-card__value { font-size: 26px; font-weight: 600; line-height: 1.4; color: #1d2327; }
+.mgt-card__note { color: #646970; font-size: 12px; }
+.mgt-delta { font-size: 13px; font-weight: 600; margin-left: 4px; }
+.mgt-delta.is-better { color: #00a32a; }
+.mgt-delta.is-worse { color: #d63638; }
+
+.mgt-map { height: 560px; margin: 16px 0 8px; border: 1px solid #c3c4c7; border-radius: 4px; background: #f0f0f1; z-index: 0; }
+.mgt-map--preview { height: 380px; max-width: 900px; }
+
+.mgt-pin { display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); color: #fff; font: 600 12px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.mgt-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.mgt-top3 { background: #00a32a; }
+.mgt-top10 { background: #dba617; }
+.mgt-top20 { background: #d63638; }
+.mgt-none { background: #646970; }
+.mgt-error { background: #c3c4c7; color: #1d2327; }
+.mgt-legend { display: flex; flex-wrap: wrap; gap: 4px 20px; margin: 0 0 24px; padding: 0; list-style: none; color: #50575e; }
+.mgt-popup-top { margin: 4px 0 0 18px; }
+.mgt-popup-top .is-ours { font-weight: 600; }
+.mgt-popup-top span { color: #646970; }
+
+.mgt-table { max-width: 1100px; }
+.mgt-table td { vertical-align: middle; }
+.mgt-row-actions form { display: inline; }
+.mgt-actions { margin: 0 0 16px; }
+.mgt-actions form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.mgt-tools form { margin: 0 0 12px; }
+.mgt-coord { width: 9em; }
+.mgt-running form { margin: 0 0 8px; }
+.mgt-empty { padding: 24px 0; }
+
+@media (max-width: 782px) {
+  .mgt-map { height: 420px; }
+  .mgt-map--preview { height: 300px; }
+}

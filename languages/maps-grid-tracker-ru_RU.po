@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maps Grid Tracker 1.0.3\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Enter the DataForSEO login and password first."
+msgstr "Сначала укажите логин и пароль DataForSEO."
+
+msgid "Set the grid centre (latitude and longitude)."
+msgstr "Укажите центр сетки (широту и долготу)."
+
+msgid "Add at least one keyword."
+msgstr "Добавьте хотя бы один запрос."
+
+msgid "Set the business CID or website domain so it can be found in the results."
+msgstr "Укажите CID компании или домен сайта, чтобы найти её в выдаче."
+
+msgid "Another scan is still running. Wait until it finishes."
+msgstr "Другой скан ещё идёт. Дождитесь его окончания."
+
+msgid "Could not save the scan to the database."
+msgstr "Не удалось сохранить скан в базе данных."
+
+msgid "DataForSEO did not accept any task."
+msgstr "DataForSEO не принял ни одной задачи."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Maps Grid Tracker"
+msgstr "Позиции в Картах по сетке"
+
+msgid "Maps Grid"
+msgstr "Позиции в Картах"
+
+msgid "Not in results"
+msgstr "Нет в выдаче"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Point"
+msgstr "Точка"
+
+msgid "Top 3 here"
+msgstr "Топ-3 в этой точке"
+
+msgid "No data"
+msgstr "Нет данных"
+
+msgid "Grid centre"
+msgstr "Центр сетки"
+
+msgid "%1$d points × %2$d keywords = %3$d requests ≈ $%4$s per scan"
+msgstr "%1$d точек × %2$d запросов = %3$d задач ≈ $%4$s за скан"
+
+msgid "You are not allowed to do this."
+msgstr "У вас нет прав на это действие."
+
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+msgid "Connected. Balance: $%s"
+msgstr "Подключено. Баланс: $%s"
+
+msgid "Scan #%d started. DataForSEO usually returns standard-queue results within a few minutes; they are collected every 5 minutes or with “Check results now”."
+msgstr "Скан №%d запущен. Обычная очередь DataForSEO отдаёт результаты за несколько минут; они собираются каждые 5 минут или по кнопке «Проверить результаты»."
+
+msgid "Checked %1$d tasks, received %2$d results."
+msgstr "Проверено задач: %1$d, получено результатов: %2$d."
+
+msgid "Scan #%d deleted."
+msgstr "Скан №%d удалён."
+
+msgid "Save the API access and the grid centre first, then enter the business name."
+msgstr "Сначала сохраните доступ к API и центр сетки, затем введите название компании."
+
+msgid "Business saved."
+msgstr "Компания сохранена."
+
+msgid "Report"
+msgstr "Отчёт"
+
+msgid "Scans"
+msgstr "Сканы"
+
+msgid "Sandbox mode is on: DataForSEO returns sample data for free. Turn it off in Settings for real rankings."
+msgstr "Включён режим песочницы: DataForSEO бесплатно отдаёт тестовые данные. Для настоящих позиций выключите его в настройках."
+
+msgid "WP-Cron is disabled on this site (DISABLE_WP_CRON) and no tick has run in the last 20 minutes, so scheduled scans will not start. Add this line to the server crontab:"
+msgstr "На сайте отключён WP-Cron (DISABLE_WP_CRON), и за последние 20 минут проверка не запускалась, поэтому сканы по расписанию не стартуют. Добавьте строку в crontab сервера:"
+
+msgid "Scheduled scan failed on %1$s: %2$s"
+msgstr "Скан по расписанию не запустился %1$s: %2$s"
+
+msgid "Scan #%1$d is running: %2$d of %3$d results received. Results are collected every 5 minutes."
+msgstr "Скан №%1$d идёт: получено %2$d из %3$d результатов. Результаты собираются каждые 5 минут."
+
+msgid "Check results now"
+msgstr "Проверить результаты"
+
+msgid "Running"
+msgstr "Идёт"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Partly done"
+msgstr "Частично"
+
+msgid "Failed"
+msgstr "Ошибка"
+
+msgid "No finished scans yet."
+msgstr "Завершённых сканов пока нет."
+
+msgid "Run a scan"
+msgstr "Запустить скан"
+
+msgid "Scan"
+msgstr "Скан"
+
+msgid "Keyword"
+msgstr "Запрос"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Average position"
+msgstr "Средняя позиция"
+
+msgid "Only points where the business was found."
+msgstr "Только точки, где компания найдена."
+
+msgid "Average total position"
+msgstr "Средняя по всем точкам"
+
+msgid "Not found counts as %d."
+msgstr "Не найдено считается как %d."
+
+msgid "Top 3"
+msgstr "Топ-3"
+
+msgid "Found in top %d"
+msgstr "Найдено в топ-%d"
+
+msgid "Changes are compared with scan #%d."
+msgstr "Изменения — по сравнению со сканом №%d."
+
+msgid "Map of positions on the grid"
+msgstr "Карта позиций по сетке"
+
+msgid "not in top %d"
+msgstr "нет в топ-%d"
+
+msgid "All keywords in this scan"
+msgstr "Все запросы этого скана"
+
+msgid "Found"
+msgstr "Найдено"
+
+msgid "Grid %1$d×%1$d, %2$s km between points, zoom %3$d. Business: %4$s"
+msgstr "Сетка %1$d×%1$d, %2$s км между точками, zoom %3$d. Компания: %4$s"
+
+msgid "pp"
+msgstr "п. п."
+
+msgid "Start a scan: %1$d requests, about $%2$s. Continue?"
+msgstr "Запустить скан: %1$d задач, около $%2$s. Продолжить?"
+
+msgid "Run scan now"
+msgstr "Запустить скан сейчас"
+
+msgid "%1$d points × %2$d keywords, about $%3$s"
+msgstr "%1$d точек × %2$d запросов, около $%3$s"
+
+msgid "Next scheduled scan: %s"
+msgstr "Следующий скан по расписанию: %s"
+
+msgid "No scans yet."
+msgstr "Сканов пока нет."
+
+msgid "Started"
+msgstr "Начат"
+
+msgid "Source"
+msgstr "Запуск"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Results"
+msgstr "Результаты"
+
+msgid "Cost"
+msgstr "Стоимость"
+
+msgid "schedule"
+msgstr "по расписанию"
+
+msgid "manual"
+msgstr "вручную"
+
+msgid "(%d failed)"
+msgstr "(ошибок: %d)"
+
+msgid "View"
+msgstr "Открыть"
+
+msgid "Delete scan #%d and its results?"
+msgstr "Удалить скан №%d и его результаты?"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "DataForSEO access"
+msgstr "Доступ к DataForSEO"
+
+msgid "API login"
+msgstr "Логин API"
+
+msgid "A password is saved. Leave empty to keep it."
+msgstr "Пароль сохранён. Оставьте поле пустым, чтобы его не менять."
+
+msgid "Remove saved password"
+msgstr "Удалить сохранённый пароль"
+
+msgid "API password from the DataForSEO dashboard (API Access), not the account password."
+msgstr "Пароль API из кабинета DataForSEO (API Access), а не пароль от аккаунта."
+
+msgid "API password"
+msgstr "Пароль API"
+
+msgid "Sandbox"
+msgstr "Песочница"
+
+msgid "Use sandbox.dataforseo.com (free sample data, for testing)"
+msgstr "Использовать sandbox.dataforseo.com (бесплатные тестовые данные)"
+
+msgid "Account"
+msgstr "Аккаунт"
+
+msgid "%1$s, balance $%2$s"
+msgstr "%1$s, баланс $%2$s"
+
+msgid "Business"
+msgstr "Компания"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Google CID"
+msgstr "Google CID"
+
+msgid "The most reliable match. Use “Find business” below to fill it in."
+msgstr "Самый надёжный способ найти компанию. Заполните его кнопкой «Найти компанию» ниже."
+
+msgid "Website domain"
+msgstr "Домен сайта"
+
+msgid "Used when the CID is empty or does not match: the profile’s website domain."
+msgstr "Домен сайта из профиля. Используется, если CID пуст или не совпал."
+
+msgid "Grid"
+msgstr "Сетка"
+
+msgid "Click the map to move the grid centre."
+msgstr "Кликните по карте, чтобы перенести центр сетки."
+
+msgid "Centre"
+msgstr "Центр"
+
+msgid "Latitude"
+msgstr "Широта"
+
+msgid "Longitude"
+msgstr "Долгота"
+
+msgid "latitude, longitude"
+msgstr "широта, долгота"
+
+msgid "Grid size"
+msgstr "Размер сетки"
+
+msgid "Distance between points"
+msgstr "Расстояние между точками"
+
+msgid "Map zoom"
+msgstr "Масштаб карты"
+
+msgid "Google Maps zoom used for each search (13–15 for a city)."
+msgstr "Масштаб Google Карт для каждого поиска (13–15 для города)."
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Keywords"
+msgstr "Запросы"
+
+msgid "One per line, up to 50."
+msgstr "По одному на строку, до 50."
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "e.g. pl, en, de"
+msgstr "например pl, en, de"
+
+msgid "Results to check"
+msgstr "Сколько результатов проверять"
+
+msgid "Positions below this count are shown as “not found”. Up to 100 costs the same."
+msgstr "Позиции ниже этого числа считаются «не найдено». До 100 стоит одинаково."
+
+msgid "Schedule and cost"
+msgstr "Расписание и стоимость"
+
+msgid "Manual only"
+msgstr "Только вручную"
+
+msgid "Daily"
+msgstr "Ежедневно"
+
+msgid "Weekly"
+msgstr "Еженедельно"
+
+msgid "Every 2 weeks"
+msgstr "Раз в 2 недели"
+
+msgid "Every 30 days"
+msgstr "Раз в 30 дней"
+
+msgid "Next scan: %s"
+msgstr "Следующий скан: %s"
+
+msgid "Automatic scans"
+msgstr "Автоматические сканы"
+
+msgid "at"
+msgstr "в"
+
+msgid "Price per request"
+msgstr "Цена за задачу"
+
+msgid "Google Maps SERP, standard queue, from your DataForSEO price list. Only used for estimates; the real cost is taken from the API."
+msgstr "Google Maps SERP, обычная очередь, по вашему прайсу DataForSEO. Нужна только для оценки; фактическая стоимость берётся из API."
+
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+msgid "Tools"
+msgstr "Инструменты"
+
+msgid "Test connection"
+msgstr "Проверить подключение"
+
+msgid "Free: reads the account balance."
+msgstr "Бесплатно: читает баланс аккаунта."
+
+msgid "Business name"
+msgstr "Название компании"
+
+msgid "Find business"
+msgstr "Найти компанию"
+
+msgid "One live request at the grid centre (about $0.002)."
+msgstr "Один live-запрос в центре сетки (около $0.002)."
+
+msgid "Results for “%1$s” (cost $%2$s)"
+msgstr "Результаты по «%1$s» (стоимость $%2$s)"
+
+msgid "Nothing found."
+msgstr "Ничего не найдено."
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Website"
+msgstr "Сайт"
+
+msgid "This is my business"
+msgstr "Это моя компания"

@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Maps Grid Tracker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Maps Grid Tracker 1.0.3\n"
+"Report-Msgid-Bugs-To: https://github.com/the-wagner-dev/maps-grid-tracker/"
+"issues\n"
+"POT-Creation-Date: 2026-11-19 17:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-mgt-scanner.php:43
+msgid "Enter the DataForSEO login and password first."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:46
+msgid "Set the grid centre (latitude and longitude)."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:49
+msgid "Add at least one keyword."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:52
+msgid ""
+"Set the business CID or website domain so it can be found in the results."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:55
+msgid "Another scan is still running. Wait until it finishes."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:81
+msgid "Could not save the scan to the database."
+msgstr ""
+
+#: includes/class-mgt-scanner.php:150
+msgid "DataForSEO did not accept any task."
+msgstr ""
+
+#: includes/class-mgt-admin.php:22 includes/class-mgt-admin.php:218
+#: includes/class-mgt-admin.php:296
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mgt-admin.php:35 includes/class-mgt-admin.php:224
+msgid "Maps Grid Tracker"
+msgstr ""
+
+#: includes/class-mgt-admin.php:36
+msgid "Maps Grid"
+msgstr ""
+
+#: includes/class-mgt-admin.php:53
+msgid "Not in results"
+msgstr ""
+
+#: includes/class-mgt-admin.php:54
+msgid "Position"
+msgstr ""
+
+#: includes/class-mgt-admin.php:55
+msgid "Point"
+msgstr ""
+
+#: includes/class-mgt-admin.php:56
+msgid "Top 3 here"
+msgstr ""
+
+#: includes/class-mgt-admin.php:57
+msgid "No data"
+msgstr ""
+
+#: includes/class-mgt-admin.php:58
+msgid "Grid centre"
+msgstr ""
+
+#: includes/class-mgt-admin.php:59
+#, php-format
+msgid "%1$d points × %2$d keywords = %3$d requests ≈ $%4$s per scan"
+msgstr ""
+
+#: includes/class-mgt-admin.php:83
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-mgt-admin.php:109
+msgid "Settings saved."
+msgstr ""
+
+#. translators: %s: account balance in USD
+#: includes/class-mgt-admin.php:123
+#, php-format
+msgid "Connected. Balance: $%s"
+msgstr ""
+
+#. translators: %d: scan number
+#: includes/class-mgt-admin.php:137
+#, php-format
+msgid ""
+"Scan #%d started. DataForSEO usually returns standard-queue results within a "
+"few minutes; they are collected every 5 minutes or with “Check results now”."
+msgstr ""
+
+#. translators: 1: requests made, 2: results received
+#: includes/class-mgt-admin.php:146
+#, php-format
+msgid "Checked %1$d tasks, received %2$d results."
+msgstr ""
+
+#. translators: %d: scan number
+#: includes/class-mgt-admin.php:157
+#, php-format
+msgid "Scan #%d deleted."
+msgstr ""
+
+#: includes/class-mgt-admin.php:168
+msgid ""
+"Save the API access and the grid centre first, then enter the business name."
+msgstr ""
+
+#: includes/class-mgt-admin.php:203
+msgid "Business saved."
+msgstr ""
+
+#: includes/class-mgt-admin.php:216
+msgid "Report"
+msgstr ""
+
+#: includes/class-mgt-admin.php:217
+msgid "Scans"
+msgstr ""
+
+#: includes/class-mgt-admin.php:240
+msgid ""
+"Sandbox mode is on: DataForSEO returns sample data for free. Turn it off in "
+"Settings for real rankings."
+msgstr ""
+
+#: includes/class-mgt-admin.php:245
+msgid ""
+"WP-Cron is disabled on this site (DISABLE_WP_CRON) and no tick has run in "
+"the last 20 minutes, so scheduled scans will not start. Add this line to the "
+"server crontab:"
+msgstr ""
+
+#. translators: 1: date, 2: error
+#: includes/class-mgt-admin.php:251
+#, php-format
+msgid "Scheduled scan failed on %1$s: %2$s"
+msgstr ""
+
+#. translators: 1: scan number, 2: results received, 3: total tasks
+#: includes/class-mgt-admin.php:260
+#, php-format
+msgid ""
+"Scan #%1$d is running: %2$d of %3$d results received. Results are collected "
+"every 5 minutes."
+msgstr ""
+
+#: includes/class-mgt-admin.php:264
+msgid "Check results now"
+msgstr ""
+
+#: includes/class-mgt-admin.php:278
+msgid "Running"
+msgstr ""
+
+#: includes/class-mgt-admin.php:279
+msgid "Done"
+msgstr ""
+
+#: includes/class-mgt-admin.php:280
+msgid "Partly done"
+msgstr ""
+
+#: includes/class-mgt-admin.php:281
+msgid "Failed"
+msgstr ""
+
+#: includes/class-mgt-admin.php:292
+msgid "No finished scans yet."
+msgstr ""
+
+#: includes/class-mgt-admin.php:298
+msgid "Run a scan"
+msgstr ""
+
+#: includes/class-mgt-admin.php:316 includes/class-mgt-admin.php:445
+msgid "Scan"
+msgstr ""
+
+#: includes/class-mgt-admin.php:320 includes/class-mgt-admin.php:369
+msgid "Keyword"
+msgstr ""
+
+#: includes/class-mgt-admin.php:324
+msgid "Show"
+msgstr ""
+
+#: includes/class-mgt-admin.php:332 includes/class-mgt-admin.php:369
+msgid "Average position"
+msgstr ""
+
+#: includes/class-mgt-admin.php:332
+msgid "Only points where the business was found."
+msgstr ""
+
+#. translators: %d: depth + 1
+#: includes/class-mgt-admin.php:334 includes/class-mgt-admin.php:369
+msgid "Average total position"
+msgstr ""
+
+#: includes/class-mgt-admin.php:334
+#, php-format
+msgid "Not found counts as %d."
+msgstr ""
+
+#: includes/class-mgt-admin.php:335 includes/class-mgt-admin.php:369
+msgid "Top 3"
+msgstr ""
+
+#. translators: %d: depth
+#: includes/class-mgt-admin.php:337
+#, php-format
+msgid "Found in top %d"
+msgstr ""
+
+#. translators: %d: scan number
+#: includes/class-mgt-admin.php:341
+#, php-format
+msgid "Changes are compared with scan #%d."
+msgstr ""
+
+#: includes/class-mgt-admin.php:356
+msgid "Map of positions on the grid"
+msgstr ""
+
+#. translators: %d: depth
+#: includes/class-mgt-admin.php:360
+#, php-format
+msgid "not in top %d"
+msgstr ""
+
+#: includes/class-mgt-admin.php:368
+msgid "All keywords in this scan"
+msgstr ""
+
+#: includes/class-mgt-admin.php:369
+msgid "Found"
+msgstr ""
+
+#. translators: 1: grid size, 2: spacing km, 3: zoom, 4: business
+#: includes/class-mgt-admin.php:390
+#, php-format
+msgid "Grid %1$d×%1$d, %2$s km between points, zoom %3$d. Business: %4$s"
+msgstr ""
+
+#: includes/class-mgt-admin.php:402
+msgid "pp"
+msgstr ""
+
+#. translators: 1: requests, 2: estimated cost
+#: includes/class-mgt-admin.php:427
+#, php-format
+msgid "Start a scan: %1$d requests, about $%2$s. Continue?"
+msgstr ""
+
+#: includes/class-mgt-admin.php:428
+msgid "Run scan now"
+msgstr ""
+
+#. translators: 1: points, 2: keywords, 3: estimated cost
+#: includes/class-mgt-admin.php:430
+#, php-format
+msgid "%1$d points × %2$d keywords, about $%3$s"
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-mgt-admin.php:435
+#, php-format
+msgid "Next scheduled scan: %s"
+msgstr ""
+
+#: includes/class-mgt-admin.php:441
+msgid "No scans yet."
+msgstr ""
+
+#: includes/class-mgt-admin.php:445
+msgid "Started"
+msgstr ""
+
+#: includes/class-mgt-admin.php:445
+msgid "Source"
+msgstr ""
+
+#: includes/class-mgt-admin.php:445
+msgid "Status"
+msgstr ""
+
+#: includes/class-mgt-admin.php:445
+msgid "Results"
+msgstr ""
+
+#: includes/class-mgt-admin.php:445
+msgid "Cost"
+msgstr ""
+
+#: includes/class-mgt-admin.php:451
+msgid "schedule"
+msgstr ""
+
+#: includes/class-mgt-admin.php:451
+msgid "manual"
+msgstr ""
+
+#. translators: %d: failed tasks
+#: includes/class-mgt-admin.php:457
+#, php-format
+msgid "(%d failed)"
+msgstr ""
+
+#: includes/class-mgt-admin.php:461
+msgid "View"
+msgstr ""
+
+#. translators: %d: scan number
+#: includes/class-mgt-admin.php:467
+#, php-format
+msgid "Delete scan #%d and its results?"
+msgstr ""
+
+#: includes/class-mgt-admin.php:467
+msgid "Delete"
+msgstr ""
+
+#: includes/class-mgt-admin.php:485
+msgid "DataForSEO access"
+msgstr ""
+
+#: includes/class-mgt-admin.php:486
+msgid "API login"
+msgstr ""
+
+#: includes/class-mgt-admin.php:488
+msgid "A password is saved. Leave empty to keep it."
+msgstr ""
+
+#: includes/class-mgt-admin.php:488
+msgid "Remove saved password"
+msgstr ""
+
+#: includes/class-mgt-admin.php:489
+msgid ""
+"API password from the DataForSEO dashboard (API Access), not the account "
+"password."
+msgstr ""
+
+#: includes/class-mgt-admin.php:490
+msgid "API password"
+msgstr ""
+
+#: includes/class-mgt-admin.php:491
+msgid "Sandbox"
+msgstr ""
+
+#: includes/class-mgt-admin.php:491
+msgid "Use sandbox.dataforseo.com (free sample data, for testing)"
+msgstr ""
+
+#. translators: 1: login, 2: balance
+#: includes/class-mgt-admin.php:494
+msgid "Account"
+msgstr ""
+
+#: includes/class-mgt-admin.php:494
+#, php-format
+msgid "%1$s, balance $%2$s"
+msgstr ""
+
+#: includes/class-mgt-admin.php:498
+msgid "Business"
+msgstr ""
+
+#: includes/class-mgt-admin.php:499 includes/class-mgt-admin.php:580
+msgid "Name"
+msgstr ""
+
+#: includes/class-mgt-admin.php:500
+msgid "Google CID"
+msgstr ""
+
+#: includes/class-mgt-admin.php:500
+msgid "The most reliable match. Use “Find business” below to fill it in."
+msgstr ""
+
+#: includes/class-mgt-admin.php:501
+msgid "Website domain"
+msgstr ""
+
+#: includes/class-mgt-admin.php:501
+msgid ""
+"Used when the CID is empty or does not match: the profile’s website domain."
+msgstr ""
+
+#: includes/class-mgt-admin.php:504
+msgid "Grid"
+msgstr ""
+
+#: includes/class-mgt-admin.php:505
+msgid "Click the map to move the grid centre."
+msgstr ""
+
+#: includes/class-mgt-admin.php:508
+msgid "Centre"
+msgstr ""
+
+#: includes/class-mgt-admin.php:511
+msgid "Latitude"
+msgstr ""
+
+#: includes/class-mgt-admin.php:513
+msgid "Longitude"
+msgstr ""
+
+#: includes/class-mgt-admin.php:514
+msgid "latitude, longitude"
+msgstr ""
+
+#: includes/class-mgt-admin.php:520
+msgid "Grid size"
+msgstr ""
+
+#: includes/class-mgt-admin.php:521
+msgid "Distance between points"
+msgstr ""
+
+#: includes/class-mgt-admin.php:522
+msgid "Map zoom"
+msgstr ""
+
+#: includes/class-mgt-admin.php:522
+msgid "Google Maps zoom used for each search (13–15 for a city)."
+msgstr ""
+
+#: includes/class-mgt-admin.php:525
+msgid "Search"
+msgstr ""
+
+#: includes/class-mgt-admin.php:526
+msgid "Keywords"
+msgstr ""
+
+#: includes/class-mgt-admin.php:526
+msgid "One per line, up to 50."
+msgstr ""
+
+#: includes/class-mgt-admin.php:527
+msgid "Language"
+msgstr ""
+
+#: includes/class-mgt-admin.php:527
+msgid "e.g. pl, en, de"
+msgstr ""
+
+#: includes/class-mgt-admin.php:528
+msgid "Results to check"
+msgstr ""
+
+#: includes/class-mgt-admin.php:528
+msgid ""
+"Positions below this count are shown as “not found”. Up to 100 costs the "
+"same."
+msgstr ""
+
+#: includes/class-mgt-admin.php:531
+msgid "Schedule and cost"
+msgstr ""
+
+#: includes/class-mgt-admin.php:533
+msgid "Manual only"
+msgstr ""
+
+#: includes/class-mgt-admin.php:534
+msgid "Daily"
+msgstr ""
+
+#: includes/class-mgt-admin.php:535
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-mgt-admin.php:536
+msgid "Every 2 weeks"
+msgstr ""
+
+#: includes/class-mgt-admin.php:537
+msgid "Every 30 days"
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-mgt-admin.php:548
+#, php-format
+msgid "Next scan: %s"
+msgstr ""
+
+#: includes/class-mgt-admin.php:549
+msgid "Automatic scans"
+msgstr ""
+
+#: includes/class-mgt-admin.php:549
+msgid "at"
+msgstr ""
+
+#: includes/class-mgt-admin.php:550
+msgid "Price per request"
+msgstr ""
+
+#: includes/class-mgt-admin.php:550
+msgid ""
+"Google Maps SERP, standard queue, from your DataForSEO price list. Only used "
+"for estimates; the real cost is taken from the API."
+msgstr ""
+
+#: includes/class-mgt-admin.php:552
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-mgt-admin.php:558
+msgid "Tools"
+msgstr ""
+
+#: includes/class-mgt-admin.php:562
+msgid "Test connection"
+msgstr ""
+
+#: includes/class-mgt-admin.php:563
+msgid "Free: reads the account balance."
+msgstr ""
+
+#: includes/class-mgt-admin.php:568
+msgid "Business name"
+msgstr ""
+
+#: includes/class-mgt-admin.php:569
+msgid "Find business"
+msgstr ""
+
+#: includes/class-mgt-admin.php:570
+msgid "One live request at the grid centre (about $0.002)."
+msgstr ""
+
+#. translators: 1: query, 2: cost
+#: includes/class-mgt-admin.php:576
+#, php-format
+msgid "Results for “%1$s” (cost $%2$s)"
+msgstr ""
+
+#: includes/class-mgt-admin.php:578
+msgid "Nothing found."
+msgstr ""
+
+#: includes/class-mgt-admin.php:580
+msgid "Address"
+msgstr ""
+
+#: includes/class-mgt-admin.php:580
+msgid "Website"
+msgstr ""
+
+#: includes/class-mgt-admin.php:587
+msgid "This is my business"
+msgstr ""
